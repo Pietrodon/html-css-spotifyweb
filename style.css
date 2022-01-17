@@ -32,20 +32,18 @@ footer{
 }
 .debug{
     min-width: 229px;
-}
-.song-name{
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
+    align-items: center;  
 }
+
 .song{
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-    justify-content: space-around;
+    
 }
 .song-cover{
     height: 42px;
@@ -72,4 +70,27 @@ footer{
 }
 .time-line{
     min-width: 527px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+
+}
+.song-bar{
+    width: 428px;
+    height: 6px;
+    border: solid 1px;
+    background-color: rgb(119, 119, 119);
+    gap: 15px;
+    border-radius: 28px;
+}
+.volume-bar{
+    width: 118px ;
+    height: 6px;
+    border: solid 1px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 28px;
+    margin-right: 25px;
+    
 }
