@@ -27,4 +27,49 @@ footer{
     height: 91px;
     border: 2px solid red;
     background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+}
+.debug{
+    min-width: 229px;
+}
+.song-name{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.song{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.song-cover{
+    height: 42px;
+    width: 42px;
+    vertical-align: baseline;
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    color: rgb(255, 255, 255);
+}
+.info{
+    color:rgb(119, 119, 119) ;
+}
+.icon{
+    display: flex;
+    color: rgb(119, 119, 119);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.time-line{
+    min-width: 527px;
 }
