@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main */
+.container{
+    display: flex;
+}
+.side-bar{
+    min-width:229px;
+    border: 2px solid blue;
+    min-height: calc(100vh - 91px);
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    border: 2px solid pink;
+    flex-grow: 1;
+}
+/* footer */
+footer{
+    width: 100vw;
+    height: 91px;
+    border: 2px solid red;
+}
