@@ -25,7 +25,6 @@
 footer{
     width: 100vw;
     height: 91px;
-    border: 2px solid red;
     background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: space-between;
