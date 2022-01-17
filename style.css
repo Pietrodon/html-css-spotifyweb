@@ -13,14 +13,18 @@
     min-height: calc(100vh - 91px);
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 .main-content{
     border: 2px solid pink;
     flex-grow: 1;
+    background-color: rgb(20, 25, 34
+    );
 }
 /* footer */
 footer{
     width: 100vw;
     height: 91px;
     border: 2px solid red;
+    background-color: rgb(40, 40, 40);
 }
