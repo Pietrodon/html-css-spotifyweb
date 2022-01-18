@@ -74,7 +74,6 @@ footer{
     justify-content: center;
     gap: 15px;
     align-items: center;
-
 }
 .song-bar{
     width: 428px;
@@ -95,4 +94,7 @@ footer{
 .time-line .icon{
     font-size: 20px;
     gap: 20px;
+}
+i:hover{
+    color: white;
 }
