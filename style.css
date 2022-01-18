@@ -9,18 +9,34 @@
 }
 .side-bar{
     min-width:229px;
-    border: 2px solid blue;
     min-height: calc(100vh - 91px);
     display: flex;
     flex-direction: column;
     background-color: black;
 }
 .main-content{
-    border: 2px solid pink;
     flex-grow: 1;
-    background-color: rgb(20, 25, 34
-    );
+    background-color: rgb(20, 25, 34);
+    /* overflow-y: scroll; */
 }
+.upgrade{
+    min-width: calc(100vw - 229px);
+    min-height: 89px;
+    background-color: black;
+}
+input{
+    background-color: black ;
+    border:  2px solid rgb(119, 119, 119);
+    padding: 15px 25px;
+    color: white;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 28px;
+    text-align: center;
+}
+
+
 /* footer */
 footer{
     width: 100vw;
@@ -51,8 +67,7 @@ footer{
 }
 .song-info{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .title{
     color: rgb(255, 255, 255);
@@ -98,3 +113,4 @@ footer{
 i:hover{
     color: white;
 }
+
