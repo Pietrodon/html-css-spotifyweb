@@ -14,16 +14,38 @@
     flex-direction: column;
     background-color: black;
 }
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 229px;
+    height: 89px;
+
+}
+.spotify-logo--text{
+    height: 43px;
+    width: 130px;
+}
+.first-menu{
+    display: flex;
+}
+p{
+    color: white;
+}
+
+
+
+/* .main-content */
 .main-content{
     flex-grow: 1;
     background-color: rgb(20, 25, 34);
     /* overflow-y: scroll; */
 }
 .upgrade{
-    min-width: calc(100vw - 229px);
-    min-height: 89px;
+    width: calc(100vw - 229px);
+    height: 89px;
     background-color: black;
 }
+
 input{
     background-color: black ;
     border:  2px solid rgb(119, 119, 119);
