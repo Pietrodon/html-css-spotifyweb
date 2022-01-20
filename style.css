@@ -52,6 +52,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    margin-left: 15px;
 }
     
 .title{
@@ -74,7 +75,7 @@
     
 }
 .playlist-list li{
-    padding: 15px;
+    padding-top: 20px;
 }
 .playlist-menu li{
     color: white;
@@ -82,13 +83,14 @@
 ul{
     list-style: none;
 }
+.third-menu{
+    margin-left: 15px;
+}
 .dowload{
     display: flex;
     color: rgb(119, 119, 119);
     gap: 10px;
     margin-bottom: 15px;
-    
-
 }
 .dowload p{
     color: rgb(119, 119, 119); 
@@ -96,6 +98,8 @@ ul{
 .profile{
     display: flex;
     gap: 10px;
+    margin-bottom: 5px;
+    align-items: center;
 }
 .profile img{
     width: 25px;
@@ -121,7 +125,7 @@ ul{
     background-color: black;
 }
 
-input{
+button{
     background-color: black ;
     border:  2px solid rgb(119, 119, 119);
     padding: 15px 25px;
@@ -131,6 +135,20 @@ input{
     top: 20px;
     border-radius: 28px;
     text-align: center;
+    font-size: 15px;
+}
+/* nav-bar */
+
+.nav-bar li{
+    list-style: none;
+    color: rgb(119, 119, 119);
+}
+.nav-bar-list{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 
