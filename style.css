@@ -153,6 +153,7 @@ button{
 /* contenuto centrale */
 .main-album{
     padding: 25px 0 0 15px;
+    overflow-y: auto;
 }
 .main-album h2{
     color: white;
@@ -160,10 +161,15 @@ button{
 .album-list{
     display: flex;
     padding-top: 15px ;
+    gap: 25px;
+    margin-bottom: 35px;
 }
 .album-cover{
     width: 180px;
     height: 180px;
+}
+.album{
+    width: 180px;
 }
 .description-album{
     color: white;
@@ -178,13 +184,24 @@ button{
     align-items: center;
 }
 
+.second-album-list p{
+    color: rgb(119, 119, 119);
+}
+.third-album-list p{
+    color: rgb(119, 119, 119);
+}
+.alb-3{
+    border-radius: 9999px;
+}
+
 /* footer */
-footer{
+.footer{
     width: 100vw;
     height: 91px;
     background-color: rgb(40, 40, 40);
     display: flex;
     justify-content: space-between;
+    
 }
 .debug{
     min-width: 229px;
