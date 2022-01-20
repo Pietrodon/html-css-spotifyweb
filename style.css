@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     background-color: black;
+    
 }
 .logo{
     display: flex;
@@ -34,7 +35,7 @@
     height: 129px;
 
 }
-li{
+.first-menu li{
     display: flex;
     gap: 15px;
     padding: 5px;
@@ -48,9 +49,63 @@ li{
 }
 .second-menu{
     width: 229px;
-    height: 336px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
+    
+.title{
+    color: white;
+    margin-left: 0;
+}
+.plus{
+    color: black;
+    background-color: rgb(119, 119, 119);
+    padding: 10px;
+}
+.playlist-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.playlist-list{
+    color: rgb(119, 119, 119);
+    flex-grow: 1;
+    
+}
+.playlist-list li{
+    padding: 15px;
+}
+.playlist-menu li{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.dowload{
+    display: flex;
+    color: rgb(119, 119, 119);
+    gap: 10px;
+    margin-bottom: 15px;
+    
 
+}
+.dowload p{
+    color: rgb(119, 119, 119); 
+}
+.profile{
+    display: flex;
+    gap: 10px;
+}
+.profile img{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 9999px;
+}
+.profile h3{
+    color: white;    
+}
 
 
 
